@@ -1,21 +1,8 @@
-import { createPost, getPost } from "@/actions/post/actions";
-import { db } from "@/shared/lib/db";
-import { Button } from "@/shared/ui/button";
 import React from "react";
 
 const Home = async () => {
-  // await createPost(); 
-  const res = await getPost()
-
-  console.log('res',res)
-
   return (
-    <div>
-      Home{" "}
-      <Button variant={"default"} size="lg">
-        Button
-      </Button>
-    </div>
+    <div>asdf</div>
   );
 };
 
