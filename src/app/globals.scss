@@ -70,3 +70,13 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+@layer base {
+  header {
+    .header_top {
+      .headerButtons {
+        @apply flex items-center bg-white h-8 px-4 rounded-md;
+      }
+    }
+  }
+}
