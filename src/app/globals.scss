@@ -78,12 +78,27 @@ body {
         @apply flex items-center bg-white h-8 px-4 rounded-md;
       }
     }
-    .header_bottom{
-      .menu{
-        .menuItem{
-          @apply ml-7 cursor-pointer
+    .header_bottom {
+      .menu {
+        .menuItem {
+          @apply ml-7 cursor-pointer;
         }
       }
     }
   }
+  // .swiper-block {
+  //   .swiper {
+  //     .swiper-slide {
+  //       @apply bg-cover bg-center bg-no-repeat h-screen;
+  //     }
+  //   }
+  // }
+}
+
+.swiperSlide{
+  background-image: url('/images/03.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
 }
