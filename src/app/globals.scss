@@ -1,10 +1,9 @@
+// @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
+// @import url("https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
 
 @layer base {
   :root {
@@ -63,15 +62,12 @@ body {
 }
 
 @layer base {
-  * {
-    @apply border-border;
-  }
   body {
-    @apply bg-background text-foreground;
+    // @apply font-sans;
   }
 }
 
-@layer base {
+@layer components {
   header {
     .header_top {
       .headerButtons {
@@ -86,19 +82,19 @@ body {
       }
     }
   }
-  // .swiper-block {
-  //   .swiper {
-  //     .swiper-slide {
-  //       @apply bg-cover bg-center bg-no-repeat h-screen;
-  //     }
-  //   }
-  // }
+  .swiper-block {
+    .swiperSlide {
+      .overlay {
+        @apply absolute top-0 right-0 left-0 bottom-0 bg-black opacity-50 z-50;
+      }
+    }
+    .swiper-pagination {
+      .swiper-pagination-bullet-active {
+        @apply bg-white;
+      }
+    }
+  }
 }
 
-.swiperSlide{
-  background-image: url('/images/03.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  
+@layer utilities {
 }
