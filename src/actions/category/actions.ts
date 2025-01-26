@@ -1,2 +1,1 @@
-import {db} from '@/shared/lib/db'
-
+import { db } from "@/shared/lib/db";

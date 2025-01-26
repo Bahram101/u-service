@@ -9,6 +9,10 @@ import "swiper/css/pagination";
 import img02 from "/public/images/02.jpg";
 import img03 from "/public/images/03.jpg";
 
+// export const metadata = {
+//   title: "Home",
+// };
+
 const Home = () => {
   return (
     <div className="swiper-block h-[700px] relative">
