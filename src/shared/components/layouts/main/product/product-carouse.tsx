@@ -38,6 +38,7 @@ const ProductCarousel = () => {
     //     </SwiperSlide>
     //   </Swiper>
     // </div>
+
     <Carousel className="w-full max-w-xs mb-4">
       <CarouselContent>
         {Array.from({ length: 5 }).map((_, index) => (
